@@ -4,4 +4,4 @@ if ! bundle check; then
   /app/bin/build
 fi
 
-rails server
+rails server -b 0.0.0.0
